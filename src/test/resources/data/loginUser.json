@@ -1,0 +1,25 @@
+{
+  "validUser": {
+    "username":"kashifali9829@gmail.com",
+    "password": "Pass@123"
+  },
+
+  "invalidUserPassword": {
+    "username": "kashifali9829@gmail.com",
+    "password": "Pass@1235"
+  },
+
+  "invalidUserEmail": {
+    "username": "kashif@gmail.com",
+    "password": "Pass@123"
+  },
+
+  "invalidUsernameEmail": {
+    "username": "kashifali@gmail.com",
+    "password": "Pas@123"
+  },
+
+  "validMSISDN": {
+    "msisdn": "03339829007"
+  }
+}

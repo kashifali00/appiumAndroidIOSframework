@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutoScouteRegressionSuite" verbose="2" >
+    <listeners>
+        <listener class-name = "com.qa.listeners.TestListeners"/>
+    </listeners>
+
+    <test verbose="1" name="appiumAndroidTests" parallel="false">
+        <classes>
+
+            <parameter name="emulator" value="true"/>
+            <parameter name="udid" value= "00008020-0002586A1E12002E"/>
+            <parameter name="platformName" value="Android"/>
+            <parameter name="platformVersion" value="10"/>
+            <parameter name="deviceName" value="android10"/>
+
+
+            <class name="com.qa.tests.AutoScouteDashboardTest"/>
+             <class name="com.qa.tests.LoginPageTest"/>
+            <class name="com.qa.tests.LogoutTest"/>
+
+        </classes>
+    </test>
+
+
+    <!--
+    <test verbose="1" name="appiumIOSTests" parallel="false">
+        <classes>
+
+            <parameter name="emulator" value="false"/>
+            <parameter name="udid" value= "00008020-0002586A1E12002E"/>
+            <parameter name="platformName" value="iOS"/>
+            <parameter name="platformVersion" value="13.7"/>
+            <parameter name="deviceName" value="Kashif"/>
+            <class name="com.qa.tests.EasyPaisaLoginPageTest"/>
+
+        </classes>
+    </test>
+    -->
+</suite>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resouces>
+    <string name ="login_button_text">Log in</string>
+    <string name ="logged_user_name">kashifali9829@gmail.com</string>
+    <string name="welcome Text">Welcome to Easypaisa</string>
+</resouces>
